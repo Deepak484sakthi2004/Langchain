@@ -1,8 +1,10 @@
-# FeedMePDF - PDF Reader Application
+# FeedMePDF - Chat with PDF Application
 
-Link for the application demo video : https://www.youtube.com/watch?v=SEIB3fpstUE
+Welcome to FeedMePDF, a powerful PDF reader application designed to provide an enhanced reading experience. This application leverages the Gemini Pro API from LangChain and integrates FIASS for vector database operations, setting itself apart as a versatile and efficient document viewer.
 
-FeedMePDF is a feature-rich PDF reader application designed to provide an enhanced reading experience. Leveraging the power of the Gemini Pro API from LangChain and integrating FIASS for vector database operations, FeedMePDF sets itself apart as a versatile and efficient document viewer.
+## Demo Video
+
+Check out the [FeedMePDF Demo Video](https://www.youtube.com/watch?v=SEIB3fpstUE) to get a quick overview of the application.
 
 ## Key Features
 
@@ -14,6 +16,8 @@ FeedMePDF is a feature-rich PDF reader application designed to provide an enhanc
 
 ### Prerequisites
 
+Before you start, make sure you have the following:
+
 - An active LangChain account with access to the Gemini Pro API.
 - Set up the vector database using FIASS by following the provided documentation.
 
@@ -21,6 +25,35 @@ FeedMePDF is a feature-rich PDF reader application designed to provide an enhanc
 
 1. **Clone the Repository:**
 
-   ```bash
-   git clone https://github.com/yourusername/FeedMePDF.git
-   cd FeedMePDF
+    ```bash
+    git clone https://github.com/Deepak484sakthi2004/FeedMePDF.git
+    cd FeedMePDF
+    ```
+
+2. **Set up API Key:**
+
+    Create a `.env` file in the root directory and store your LangChain API key there:
+
+    ```
+    GOOGLE_API_KEY=your_api_key_here
+    ```
+
+3. **Install Dependencies:**
+
+    ```cmd
+    pip install -r requirement.txt
+    ```
+
+4. **Run the Application:**
+
+    ```cmd
+    streamlit run app.py
+    ```
+
+This will start the FeedMePDF application. Open your browser and visit `http://localhost:8501` to access the application.
+
+## Support and Feedback
+
+If you encounter any issues or have feedback, feel free to open an issue in the [GitHub repository](https://github.com/Deepak484sakthi2004/FeedMePDF/issues).
+
+Happy reading with FeedMePDF! 📖🚀
