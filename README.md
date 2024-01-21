@@ -1,6 +1,6 @@
 # FeedMePDF - PDF Reader Application
 
-[(https://www.youtube.com/watch?v=SEIB3fpstUE)]
+Link for the application demo video : https://www.youtube.com/watch?v=SEIB3fpstUE
 
 FeedMePDF is a feature-rich PDF reader application designed to provide an enhanced reading experience. Leveraging the power of the Gemini Pro API from LangChain and integrating FIASS for vector database operations, FeedMePDF sets itself apart as a versatile and efficient document viewer.
 
