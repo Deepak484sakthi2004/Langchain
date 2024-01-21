@@ -26,7 +26,7 @@ Before you start, make sure you have the following:
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/Deepak484sakthi2004/FeedMePDF.git
+    git clone https://github.com/Deepak484sakthi2004/Langchain/FeedMePDF.git
     cd FeedMePDF
     ```
 
