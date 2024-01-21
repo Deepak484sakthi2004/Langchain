@@ -2,7 +2,7 @@
 
 Welcome to the QA Project! This project is a simple QA (Question-Answering) application that leverages the Google Gemini Pro API to answer user prompts.
 
-![QA Project Image](C:\Users\deepa\Downloads\QA_repo_pto)
+![QA Project Image](https://drive.google.com/file/d/1Ol1NXCzwq0BKqpFfDdjxtev2_doGKh8P/view?usp=drive_link)
 
 ## Overview
 
