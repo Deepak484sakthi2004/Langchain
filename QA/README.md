@@ -22,8 +22,8 @@ Before you start, ensure that you have the following:
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/yourusername/QAProject.git
-    cd QAProject
+    git clone https://github.com/Deepak484sakthi2004/Langchain/QA.git
+    cd QA
     ```
 
 2. **Set up API Credentials:**
