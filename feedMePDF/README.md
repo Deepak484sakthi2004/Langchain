@@ -54,6 +54,6 @@ This will start the FeedMePDF application. Open your browser and visit `http://l
 
 ## Support and Feedback
 
-If you encounter any issues or have feedback, feel free to open an issue in the [GitHub repository](https://github.com/Deepak484sakthi2004/FeedMePDF/issues).
+If you encounter any issues or have feedback, feel free to open an issue in the [GitHub repository](https://github.com/Deepak484sakthi2004/FeedMePDF/).
 
 Happy reading with FeedMePDF! 📖🚀
