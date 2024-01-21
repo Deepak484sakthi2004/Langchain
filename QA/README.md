@@ -2,7 +2,6 @@
 
 Welcome to the QA Project! This project is a simple QA (Question-Answering) application that leverages the Google Gemini Pro API to answer user prompts.
 
-![QA Project Image]()
 
 ## Overview
 
