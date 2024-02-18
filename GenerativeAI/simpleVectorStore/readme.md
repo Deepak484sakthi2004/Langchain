@@ -25,3 +25,21 @@ vector = vector_store.get_vector("word1")
 
 # Find similar vectors
 similar_vectors = vector_store.find_similar_vectors(query_vector, num_results=5)
+```
+
+### Demo
+```python
+sentences = [
+"I eat food",
+              "I am a human.",
+              "I watch movies",
+              "Earth is a planet",
+              "Thermal paste reduces the heat on the processor",
+              "The autonomy of the human bring is complex to study",
+              "India got independence in 1947",
+              "Dudu is an extinct species",
+              "light is a form of energy",
+              "trignometry deals with triangles",
+              "Tamil is one of the most ancient languages"
+]
+```
