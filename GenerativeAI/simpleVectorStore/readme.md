@@ -7,7 +7,7 @@ This repository contains a simple implementation of a VectorStore for Word2Vec (
 ## VectorStore Class
 
 The `VectorStore` class is the core of the implementation, providing methods to add vectors, retrieve vectors, and find similar vectors.
--VectorStore Class: This class is designed to store and retrieve vectors. The vectors are stored in vector_data as a dictionary, and an indexing structure (vector_index) is updated to support retrieval based on similarity.
+- VectorStore Class: This class is designed to store and retrieve vectors. The vectors are stored in vector_data as a dictionary, and an indexing structure (vector_index) is updated to support retrieval based on similarity.
 
 - add_vector Method: Adds a vector to the store and updates the indexing structure.
 
