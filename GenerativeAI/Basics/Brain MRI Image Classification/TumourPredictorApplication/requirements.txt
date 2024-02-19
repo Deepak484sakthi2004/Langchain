@@ -1,0 +1,5 @@
+streamlit
+keras
+tersorflow-cpu
+pillow
+numpy
