@@ -28,7 +28,7 @@ def prompt_func(Question,Context):
 
 # function for extracting the key points from the context
 def extract_key_points(input_text):
-    response = prompt_func("Please find the key insights from the below text in maximum of 5 bullet points and also the summary in maximum of 3 sentences and suggest any points that you feel suits or valid / additional important points that you have outsourced  :",
+    response = prompt_func("Please find the key insights from the below text in maximum of 3 bullet points:",
     input_text)
 
     return response
@@ -54,11 +54,11 @@ def generate_wordcloud(text):
 
 def ner(text):
 
-# Specify the path to the local cache directory
-    custom_data_path = r"E:\Langchain\GenerativeAI\TextAnalysis\cache"
-# Set the SPACY_DATA environment variable to the custom data path
-    os.environ['SPACY_DATA'] = custom_data_path
-# Load the spaCy model
+# # Specify the path to the local cache directory
+#     custom_data_path = r"E:\Langchain\GenerativeAI\TextAnalysis\cache"
+# # Set the SPACY_DATA environment variable to the custom data path
+#     os.environ['SPACY_DATA'] = custom_data_path
+# # Load the spaCy model
     nlp = spacy.load('en_core_web_sm')
     doc = nlp(text)
     html =displacy.render(doc, style='ent')
@@ -83,15 +83,15 @@ if input_text is not None:
         st.info(input_text)
         
         col1, col2, col3 = st.columns([1,2,1])
-        # with col2:
-        #     st.markdown("**Output Text**")
-        #     st.image(generate_wordcloud(input_text))
-        # with col1:
-        #     st.markdown("**Key Findings based on your Text**")
-        #     st.success(extract_key_points(input_text))
-        # with col3:
-        #     st.markdown("**Most Positive Words**")
-        #     st.success(most_positive_words(input_text))
+        with col2:
+            st.markdown("**Output Text**")
+            st.image(generate_wordcloud(input_text))
+        with col1:
+            st.markdown("**Key Findings based on your Text**")
+            st.success(extract_key_points(input_text))
+        with col3:
+            st.markdown("**Most Positive Words**")
+            st.success(most_positive_words(input_text))
         
         st.markdown("**Named Entity Recognition**")
         ner(input_text)
