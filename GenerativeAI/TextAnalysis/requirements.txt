@@ -1,0 +1,7 @@
+spacy
+streamlit
+google-generativeai
+python-dotenv
+wordcloud
+nltk
+gensim
